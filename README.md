@@ -1,6 +1,6 @@
 # TDD com php - primeiros passos para o mundo dos testes haha :)
 
-Projeto básico para aprender tdd
+Projeto básico para aprender TDD
 
 ## ✋🏻 Requisitos
 

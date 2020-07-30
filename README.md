@@ -1,4 +1,4 @@
-# tdd-php-primeiros-testes
+# TDD com php - primeiros passos para o mundo dos testes haha :)
 
 Projeto básico para aprender tdd
 
@@ -9,7 +9,7 @@ Projeto básico para aprender tdd
 
 ## 🔥Executando o projeto
 
-1. Clone o repositório com o seguinte comando `https://github.com/rafajefer/tdd-php-primeiros-testes.git`<br />
+1. Clone o repositório com o seguinte comando `git clone https://github.com/rafajefer/tdd-php-primeiros-testes.git`<br />
 2. Entre na pasta `cd tdd-php--primeiros-testes`<br />
-3. Execute o comando `composer install`<br />
-4. Execute os testes com o comando `./vendor/bin/phpunit --colors tests`<br />
+3. Instale as dependências do projeto como phpunit com o comando `composer install`<br />
+4. Em seguida execute os testes com o comando do phpunit `./vendor/bin/phpunit --colors tests`<br />

@@ -6,6 +6,7 @@ class ConversorDeNumeroRomano
 {
     protected $tabela = [
         "I" => 1,
+        "II" => 2,
         "V" => 5,
         "X" => 10,
         "L" => 50,

@@ -8,6 +8,10 @@ class CalculadoraDeSalario
 {
     public function calcularSalario(Funcionario $funcionario)
     {
+        if ($funcionario->getSalario() > 3000) {
+            return 3200.00;
+        }
+        
         return 1350.0;
     }
 }

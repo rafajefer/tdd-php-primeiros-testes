@@ -38,8 +38,9 @@ class CarrinhoDeComprasTest extends TestCase
         // $this->carrinho->adicionar(new Produto("Máquina de lavar", 1, 750.00));
         // $valor = $this->carrinho->maiorValor($this->carrinho);
         // $this->assertEquals(1500.00, $valor, null, 0.00001);
-        $carrinho = (new CarrinhoDeComprasBuilder())->comItens(200.0, 300)->criar();
+
+        $carrinho = (new CarrinhoDeComprasBuilder())->comItens(900.00, 1500.00, 750.00)->criar();
         $valor = $carrinho->maiorValor($carrinho);
-        $this->assertEquals(300, $valor, null, 0.00001);
+        $this->assertEquals(1500, $valor, null, 0.00001);
     }
 }
